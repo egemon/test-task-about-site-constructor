@@ -5,7 +5,6 @@ import classNames from 'classnames'
 import { useDataForBlock } from 'src/components/BlockComponents/DataBlock/useDataForBlock'
 import styles from './index.module.css'
 
-// TODO: Truncate the data to keep the text length reasonable
 export const DataBlock = memo(({
   // required props
   url,

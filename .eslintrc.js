@@ -27,11 +27,6 @@ module.exports = {
     "react/destructuring-assignment": [1],
     'react/react-in-jsx-scope': 'off',
     "import/no-unresolved": [0],
-    // TODO: use this _ eslint config in each package instead of circular deps
-    // 'import/no-extraneous-dependencies': [
-    //   'error',
-    //   { packageDir: ['./', '../../'] }
-    // ],
 
     "prefer-destructuring": [0],
     "import/extensions": [0],
