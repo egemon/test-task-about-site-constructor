@@ -1,2 +1,10 @@
-.image {
+.root {
+    border: 1px solid black;
+}
+.item {
+    /*max-height: 300px;*/
+    list-style: none;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 20px;
 }

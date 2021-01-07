@@ -32,7 +32,7 @@ export const DataBlock = memo(({
       </div>
       <div>
         <span>- Data response -</span>
-        <p>{errorText || data}</p>
+        <p className={classNames(styles.data)}>{errorText || data}</p>
       </div>
     </div>
   )

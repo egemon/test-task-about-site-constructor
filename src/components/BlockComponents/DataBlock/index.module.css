@@ -1,6 +1,10 @@
 .root {
-    height: 500px;
-    width: 500px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 20px;
+    grid-gap: 20px;
+}
+.data {
     overflow:hidden;
     text-overflow: ellipsis;
 }

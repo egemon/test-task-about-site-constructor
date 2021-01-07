@@ -18,6 +18,6 @@
   },
   {
     "type": "data",
-    "url": "https://api.publicapis.org/entries"
+    "url": "https://api.publicapis.org/random"
   }
 ]
