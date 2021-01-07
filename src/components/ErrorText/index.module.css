@@ -1,0 +1,6 @@
+.root {
+    display: flex;
+}
+.leftToRight {
+    flex-direction: column-reverse;
+}
