@@ -1,5 +1,4 @@
 import { memo, useCallback } from 'react'
-// import PropTypes from 'prop-types'
 import classNames from 'classnames'
 
 import { useSetBlocks } from 'src/contexts/BlocksContext/useBlocksContext'
@@ -19,7 +18,7 @@ export const Textarea = memo(({
     <textarea
       onChange={handleChange}
       className={classNames(
-        styles.example,
+        styles.textarea,
       )}
     />
   )
