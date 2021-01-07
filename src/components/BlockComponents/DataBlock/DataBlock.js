@@ -19,7 +19,7 @@ export const DataBlock = memo(({
   return (
     <div
       className={classNames(
-        styles.root, // TODO: !important - please, don't forget to remove/rename this `className`
+        styles.root,
       )}
     >
       <div>

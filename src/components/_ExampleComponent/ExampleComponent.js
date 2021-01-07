@@ -11,7 +11,7 @@ export const ExampleComponent = memo(({
 }) => (
   <div
     className={classNames(
-      styles.root, // TODO: !important - please, don't forget to remove/rename this `className`
+      styles.root,
     )}
   >
     ONLY COPY AND PASTE!

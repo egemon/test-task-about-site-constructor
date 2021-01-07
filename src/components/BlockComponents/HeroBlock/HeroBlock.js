@@ -4,7 +4,6 @@ import classNames from 'classnames'
 
 import styles from './index.module.css'
 
-// TODO: component code should be lazy in chunk
 export const HeroBlock = memo(({
   imageURI,
 }) => (
@@ -12,7 +11,7 @@ export const HeroBlock = memo(({
     src={imageURI}
     alt={imageURI}
     className={classNames(
-      styles.image, // TODO: !important - please, don't forget to remove/rename this `className`
+      styles.image,
     )}
     loading="lazy"
   />

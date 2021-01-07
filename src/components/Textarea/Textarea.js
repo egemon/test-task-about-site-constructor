@@ -19,7 +19,7 @@ export const Textarea = memo(({
     <textarea
       onChange={handleChange}
       className={classNames(
-        styles.example, // TODO: !important - please, don't forget to remove/rename this `className`
+        styles.example,
       )}
     />
   )

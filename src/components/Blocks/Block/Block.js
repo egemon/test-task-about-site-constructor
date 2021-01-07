@@ -1,8 +1,18 @@
 import { memo } from 'react'
+import dynamic from 'next/dynamic'
 
-import { HeroBlock } from 'src/components/BlockComponents/HeroBlock/HeroBlock'
-import { ImageTextBlock } from 'src/components/BlockComponents/ImageTextBlock/ImageTextBlock'
-import { DataBlock } from 'src/components/BlockComponents/DataBlock/DataBlock'
+const HeroBlock = dynamic(
+  () => import('src/components/BlockComponents/HeroBlock/HeroBlock')
+    .then(component => component.HeroBlock),
+)
+const ImageTextBlock = dynamic(
+  () => import('src/components/BlockComponents/ImageTextBlock/ImageTextBlock')
+    .then(component => component.ImageTextBlock),
+)
+const DataBlock = dynamic(
+  () => import('src/components/BlockComponents/DataBlock/DataBlock')
+    .then(component => component.DataBlock),
+)
 
 export const Block = memo((block) => {
   switch (block.type) {
